@@ -173,10 +173,18 @@ footer li a:hover {
     .section-1 {
         margin: 5rem 0;
     }
+    
+    .img-position {
+        position: relative;
+        overflow: hidden;
+    }
 
-    /* FIX IMG */
-    /* .section-1.img-content img {
-    } */
+    .img-content {
+        position: relative;
+        left: -2.5%;
+        overflow-x: hidden;
+    }
+
     .text-py {
         width: 55%;
         margin: 0 auto;
